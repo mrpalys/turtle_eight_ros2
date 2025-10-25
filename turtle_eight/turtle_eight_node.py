@@ -15,15 +15,15 @@ class TurtleCircle(Node):
         self.radius = 1.0
         self.linear_speed = 1.0
         self.angular_speed = 1.0
-        self.state = 'right'
+        self.state = 'left'
 
     def move(self):
         msg = Twist()
         msg.linear.x = self.linear_speed
 
-        if self.state == 'right':
+        if self.state == 'left':
             msg.angular.z = self.angular_speed
-        elif self.state == 'left':
+        elif self.state == 'right':
             msg.angular.z = -self.angular_speed
 
         self.angle_turned += self.angular_speed * self.timer_period
