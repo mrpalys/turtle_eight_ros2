@@ -6,7 +6,8 @@ Uruchomienie noda spowoduje że żółw zacznie wykonywać ósemki
 ##Uruchomienie
 1. Uruchom turtlesim: 
 	ros2 run turtlesim turtlesim_node
-2. W nowym terminalu uruchom node: 
+2. W nowym terminalu uruchom node:
+    cd ros2_ws/src/turtle_eight/turtle_eight
 	source install/setup.bash
 	ros2 run turtle_eight turtle_eight_node
 
