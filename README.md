@@ -2,7 +2,7 @@
 
 ##Uruchomienie noda spowoduje że żółw zacznie wykonywać ósemki
 
-##Uruchomienie
+##Jak uruchomić
 1. Uruchom turtlesim:
    ```
 	ros2 run turtlesim turtlesim_node
