@@ -4,7 +4,7 @@ package_name = 'turtle_eight'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='1.0.0',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -14,8 +14,8 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='mrpalys',
-    maintainer_email='mrpalys@todo.todo',
-    description='ROS2 node to move turtlesim in a figure-eight',
+    maintainer_email='mrpalys@gmail.com',
+    description='ros2 turtlesim drawing figure 8',
     license='MIT',
     extras_require={
         'test': [
