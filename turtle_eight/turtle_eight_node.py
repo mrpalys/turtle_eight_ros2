@@ -30,6 +30,7 @@ class TurtleCircle(Node):
 
         if self.angle_turned >= 2 * math.pi:
             self.angle_turned = 0
+            msg.angular.z = 0.0
             # zmiana kierunku
             if self.state == 'right':
                 self.state = 'left'
