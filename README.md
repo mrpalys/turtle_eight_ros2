@@ -11,5 +11,6 @@ Uruchomienie noda spowoduje że żółw zacznie wykonywać ósemki
 	ros2 run turtle_eight turtle_eight_node
 
 ##Działanie
-Żółw na przemian będzie wykonywać obroty w prawo i w lewo, zmieniając kierunek
-po wykonaniu pełnych 360 stopni.
+Żółw na przemian będzie wykonywać obroty w lewo i w prawo, zmieniając kierunek po wykonaniu obrotu o pełne 360 stopni.
+
+<img width="504" height="528" alt="image" src="https://github.com/user-attachments/assets/6da867ab-1f1f-416e-9a0f-65a8b62c3915" />
