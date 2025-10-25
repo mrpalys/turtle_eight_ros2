@@ -13,4 +13,8 @@ Uruchomienie noda spowoduje że żółw zacznie wykonywać ósemki
 ##Działanie
 Żółw na przemian będzie wykonywać obroty w lewo i w prawo, zmieniając kierunek po wykonaniu obrotu o pełne 360 stopni.
 
+##Sprawozdanie
+
+	Wybrałem zadanie nr. 1 
+
 <img width="504" height="528" alt="image" src="https://github.com/user-attachments/assets/6da867ab-1f1f-416e-9a0f-65a8b62c3915" />
